@@ -7,10 +7,36 @@
 
 .item-img {
   width: 300px;
+  height: 300px;
+  object-fit: cover;
+
 }
 
 .main {
   display: flex;
   justify-content: center;
 
+}
+.win {
+  border: 2px solid lightgreen;
+  color: lightgreen;
+}
+.tie {
+  border: 2px solid rgb(88, 130, 243);
+  color: rgb(88, 130, 243);
+}
+.lose{
+    border: 2px solid rgb(255, 73, 27);
+    color: rgb(241, 97, 61);
+}
+*{
+  background-color: #250B6E;
+}
+.head{
+color: aliceblue;
+
+}
+.subHead{
+  color: aliceblue;
+  margin-bottom: 0em;
 }
